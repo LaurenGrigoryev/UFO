@@ -16,6 +16,6 @@ In sum, one of the drawbacks of using this new design is case-sensitivity. I'm s
 
 I would recommend further development in two ways:
 
-* 1 Give a disclaimer near the Filter Search header, ["Searches are case-sensitive"](https://github.com/LaurenSonis/UFO/blob/main/2021-02-21%20(3)_LI.jpg), by adding code <p>Searched are case-sensitive</p> to your [index.html file](https://github.com/LaurenSonis/UFO/blob/main/2021-02-21%20(4)_LI.jpg). 
+* 1 Give a disclaimer near the Filter Search header, ["Searches are case-sensitive"](https://github.com/LaurenSonis/UFO/blob/main/2021-02-21%20(3)_LI.jpg), by adding code to your [index.html file](https://github.com/LaurenSonis/UFO/blob/main/2021-02-21%20(4)_LI.jpg). 
 
 * 2 
