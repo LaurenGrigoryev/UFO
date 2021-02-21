@@ -26,11 +26,15 @@ function buildTable(data) {
 // 1. Create a variable to keep track of all the filters as an object.
 var filters = {};
 
+
+
 // 3. Use this function to update the filters. 
 function updateFilters() {
   
     // 4a. Save the element that was changed as a variable.
     let changed = d3.select(this);
+
+     
 
 
     // 4b. Save the value that was changed as a variable.
@@ -51,10 +55,6 @@ function updateFilters() {
       else {
       delete filters[filterId];
       }  
-      
-      if (filterValue) {
-        filterValue = filterValue.toUpperCase();
-      }
   
     // 6. Call function to apply all filters and rebuild the table
     filterTable();
@@ -72,6 +72,7 @@ function updateFilters() {
     Object.entries(filters).forEach(([keys, values]) => {
       filteredData = filteredData.filter(row => row[keys] === values);
     })   
+  
   
 
     // 10. Finally, rebuild the table using the filtered data
