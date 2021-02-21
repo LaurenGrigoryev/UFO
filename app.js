@@ -32,6 +32,7 @@ function updateFilters() {
     // 4a. Save the element that was changed as a variable.
     let changed = d3.select(this);
 
+
     // 4b. Save the value that was changed as a variable.
     let filterValue = changed.property("value");
     console.log(filterValue);
@@ -40,6 +41,7 @@ function updateFilters() {
     let filterId = changed.attr("id");
     console.log(filterId);
 
+  
     // 5. If a filter value was entered then add that filterId and value
     // to the filters list. Otherwise, clear that filter from the filters object.
     if (filterValue) {
@@ -48,7 +50,11 @@ function updateFilters() {
   }
       else {
       delete filters[filterId];
-      }      
+      }  
+      
+      if (filterValue) {
+        filterValue = filterValue.toUpperCase();
+      }
   
     // 6. Call function to apply all filters and rebuild the table
     filterTable();
@@ -65,8 +71,7 @@ function updateFilters() {
     // matches the filter values
     Object.entries(filters).forEach(([keys, values]) => {
       filteredData = filteredData.filter(row => row[keys] === values);
-    })
-    
+    })   
   
 
     // 10. Finally, rebuild the table using the filtered data
