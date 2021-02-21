@@ -6,9 +6,9 @@ The purpose of this analysis was to build a webpage and dynamic table for UFO si
 
 ## Results
 
-Someone can use this webpage by entering data in the search engines at the bottom of the page and hitting enter, the date for "Enter Date," the city for "Enter City," the state abbreviation for "Enter State," the country abbreviation for "Enter Country," and the shape for "Enter Shape." It should be noted that entries are case-sensitive as displayed in the example entries in each box, [as seen here:](https://github.com/LaurenSonis/UFO/blob/main/2021-02-21%20(1)_LI.jpg).
+Someone can use this webpage by entering data in the search engines at the bottom of the page and hitting enter, the date for "Enter Date," the city for "Enter City," the state abbreviation for "Enter State," the country abbreviation for "Enter Country," and the shape for "Enter Shape." It should be noted that entries are case-sensitive as displayed in the example entries in each box, [as seen here](https://github.com/LaurenSonis/UFO/blob/main/2021-02-21%20(1)_LI.jpg).
 
-For example, if a user wanted to see the UFO findings for California, the user would type "ca" in the engine titled "Enter State," then hit the enter key, and then the page would reload with all of the sightings in California.
+For example, if a user wanted to see the UFO findings for California, the user would type "ca" in the engine titled "Enter State," then hit the enter key, and then the page would reload with all of the sightings in California, [as seen here]().
 
 ## Summary 
 
