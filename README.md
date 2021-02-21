@@ -18,4 +18,4 @@ I would recommend further development in two ways:
 
 * 1 Give a disclaimer near the Filter Search header, ["Searches are case-sensitive"](https://github.com/LaurenSonis/UFO/blob/main/2021-02-21%20(3)_LI.jpg), by adding code to your [index.html file](https://github.com/LaurenSonis/UFO/blob/main/2021-02-21%20(4)_LI.jpg). 
 
-* 2 
+* 2 Create a forEach loop to convert user input to lowercase so that every time a user inputs "CA" or "ca" or even "Ca," the input is read as "ca."
